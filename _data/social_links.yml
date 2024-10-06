@@ -1,0 +1,7 @@
+- name: Google Scholar
+  icon: ai ai-google-scholar-square ai-2x
+  url: https://scholar.google.com/citations?user=pc5CQtMAAAAJ&hl
+
+- name: GitHub
+  icon: fab fa-github-square fa-2x
+  url: https://github.com/bian-hengwei
