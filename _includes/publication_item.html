@@ -1,0 +1,22 @@
+<div class="publication-item">
+    <div class="publication-image-container" id="{{ include.id }}">
+        <img src="{{ include.img_src }}" alt="{{ include.title }}" class="publication-image" 
+            onerror="document.getElementById('{{ include.id }}').style.display='none'">
+    </div>
+    <div class="publication-details">
+        <h3>{{ include.title }}</h3>
+        <p class="authors">{{ include.authors }}</p>
+        <p class="venue">{{ include.venue }}</p>
+        <div class="publication-links">
+            {% if include.pdf_link %}
+                <a href="{{ include.pdf_link }}" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+            {% endif %}
+            {% if include.code_link %}
+                <a href="{{ include.code_link }}" class="pub-link"><i class="fas fa-code"></i> Code</a>
+            {% endif %}
+            {% if include.project_link %}
+                <a href="{{ include.project_link }}" class="pub-link"><i class="fas fa-home"></i> Project</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
