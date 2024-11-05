@@ -5,7 +5,26 @@
     </div>
     <div class="publication-details">
         <h3>{{ include.title }}</h3>
-        <p class="authors">{{ include.authors }}</p>
+        <p class="authors">
+            {% assign coauthors = site.data.coauthors %}
+            {% assign authors_list = include.authors | split: ' and ' %}
+            {% for author in authors_list %}
+                {% assign author_name = author | strip_html | strip %}
+                {% assign author_url = "" %}
+                {% for coauthor in coauthors %}
+                    {% if author_name contains coauthor.name %}
+                        {% assign author_url = coauthor.url %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+                {% if author_url != "" %}
+                    {{ author | replace: author_name, "<a href='" | append: author_url | append: "' target='_blank'>" | append: author_name | append: "</a>" }}
+                {% else %}
+                    {{ author }}
+                {% endif %}
+                {% if forloop.last == false %} and {% endif %}
+            {% endfor %}
+        </p>
         <p class="venue">{{ include.venue }}</p>
         <div class="publication-links">
             {% if include.pdf_link %}
