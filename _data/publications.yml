@@ -1,7 +1,7 @@
 - id: dynamiccity
   img_src: "https://raw.githubusercontent.com/dynamic-city/dynamic-city.github.io/main/assets/images/teaser.webp"
   title: "DynamicCity: Large-Scale LiDAR Generation from Dynamic Scenes"
-  authors: "<span class='highlight-author'>Bian, Hengwei</span> and Kong, Lingdong and Xie, Haozhe and Qiao, Yu and Liu, Ziwei"
+  authors: "<span class='highlight-author'>Bian, Hengwei</span> and Kong, Lingdong and Xie, Haozhe and Pan, Liang and Qiao, Yu and Liu, Ziwei"
   venue: "Preprint"
   pdf_link: "https://arxiv.org/abs/2410.18084"
   code_link: "https://github.com/dynamic-city/DynamicCity"
