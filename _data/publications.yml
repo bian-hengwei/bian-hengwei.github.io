@@ -12,7 +12,7 @@
   title: "Metric from Human: Zero-shot Monocular Metric Depth Estimation via Test-time Adaptation"
   authors: "Zhao, Yizhou and <span class='highlight-author'>Bian, Hengwei</span> and Chen, Kaihua and Ji, Pengliang and Qu, Liao and Lin, Shao-yu and Yu, Weichen and Li, Haoran and Chen, Hao and Shen, Jun and Raj, Bhiksha and Xu, Min"
   venue: "NeurIPS 2024"
-  pdf_link: "#"
+  pdf_link: "https://openreview.net/pdf?id=GA8TVtxudf"
 
 - id: syneslm
   img_src: ""
