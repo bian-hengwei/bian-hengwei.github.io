@@ -37,4 +37,4 @@ Right now, I'm focused on some exciting stuff in 3D generation. I'm always up fo
 
 ## Contact {#contact}
 
-- Email: hengweib at andrew dot cmu dot edu
+- Email: hengwei1027 at gmail dot com
