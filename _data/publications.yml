@@ -1,6 +1,6 @@
 - id: dynamiccity
   img_src: "https://raw.githubusercontent.com/3DTopia/DynamicCity/gh-pages/assets/images/teaser_small.webp"
-  title: "DynamicCity: Large-Scale LiDAR Generation from Dynamic Scenes"
+  title: "DynamicCity: Large-Scale Occupancy Generation from Dynamic Scenes"
   authors: "<span class='highlight-author'>Bian, Hengwei</span> and Kong, Lingdong and Xie, Haozhe and Pan, Liang and Qiao, Yu and Liu, Ziwei"
   venue: "ICLR 2025 Spotlight"
   pdf_link: "https://arxiv.org/abs/2410.18084/"
