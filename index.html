@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hengwei Bian's personal website and publications.">
+  <meta name="theme-color" content="#f4f4f1">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hengwei Bian / 卞恒玮">
+  <meta property="og:description" content="Hengwei Bian's personal website and publications.">
+  <meta property="og:url" content="https://bianhengwei.com/">
+  <meta property="og:image" content="https://bianhengwei.com/assets/images/profile.jpg">
+  <title>Hengwei Bian / 卞恒玮</title>
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+  <script>
+    document.documentElement.classList.add('js');
+    const savedTheme = localStorage.getItem('theme');
+    const initialTheme = savedTheme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.dataset.theme = initialTheme;
+  </script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="page-progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header" data-header>
+    <a class="site-name" href="#top" aria-label="Hengwei Bian, home">
+      <span>Hengwei Bian</span>
+      <span class="site-name__cn">卞恒玮</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about" data-nav-link>About</a>
+      <a href="#publications" data-nav-link>Publications</a>
+      <a href="#contact" data-nav-link>Contact</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch color theme" data-theme-toggle>
+      <span class="theme-toggle__light" aria-hidden="true"></span>
+      <span class="theme-toggle__dark" aria-hidden="true"></span>
+    </button>
+  </header>
+
+  <main id="main-content">
+    <section class="hero page-shell" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <h1 id="hero-title">Hengwei<br>Bian<span>.</span></h1>
+        <div class="profile-links" aria-label="Profile links">
+          <a href="https://scholar.google.com/citations?user=pc5CQtMAAAAJ&amp;hl" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/bian-hengwei" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="mailto:hb.acad@outlook.com">Email <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <img src="/assets/images/profile.jpg" alt="Hengwei Bian">
+      </div>
+    </section>
+
+    <section class="about page-shell" id="about" data-section aria-labelledby="about-title">
+      <header class="section-heading reveal">
+        <p>01</p>
+        <h2 id="about-title">About</h2>
+      </header>
+      <div class="about-copy reveal">
+        <p>👋 <strong>Hey there!</strong></p>
+        <p>I’m currently a <strong>Machine Learning Engineer at ByteDance</strong>. My work focuses on building agents and the harnesses around them.</p>
+        <p>I received my M.S. from <a href="https://www.cmu.edu/" target="_blank" rel="noreferrer"><strong>Carnegie Mellon University (CMU)</strong></a>, where I worked with <a href="https://xulabs.github.io/min-xu/" target="_blank" rel="noreferrer"><strong>Prof. Min Xu</strong></a> at <a href="https://xulabs.github.io/" target="_blank" rel="noreferrer"><strong>XuLab</strong></a>. Before that, I completed my undergraduate studies at <a href="https://www.ntu.edu.sg/" target="_blank" rel="noreferrer"><strong>Nanyang Technological University (NTU)</strong></a> and worked with <a href="https://liuziwei7.github.io/" target="_blank" rel="noreferrer"><strong>Prof. Ziwei Liu</strong></a> in <a href="https://www.mmlab-ntu.com/" target="_blank" rel="noreferrer"><strong>S-Lab</strong></a>. I also continue to collaborate with <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ&amp;hl=en" target="_blank" rel="noreferrer"><strong>Dr. Liang Pan</strong></a> on several research projects.</p>
+        <p>My research interests include <strong>3D generation</strong> and <strong>world models</strong>.</p>
+        <p>Outside of work, I enjoy singing—skill level aside—and trying out new hobbies. My recent experiments include <em>Black Myth: Wukong</em>, guitar, and indoor bouldering.</p>
+        <p>I also have an especially cute dog named Mocha. You can find more of Mocha on <a href="https://www.instagram.com/wo_shi_mocha/" target="_blank" rel="noreferrer"><strong>Instagram</strong></a>.</p>
+        <p>I’m always up for an interesting conversation, a brainstorming session, or a potential collaboration—feel free to connect!</p>
+      </div>
+    </section>
+
+    <section class="publications page-shell" id="publications" data-section aria-labelledby="publications-title">
+      <header class="section-heading reveal">
+        <p>02</p>
+        <h2 id="publications-title">Publications</h2>
+      </header>
+
+      <div class="publication-list">
+        <article class="publication-item reveal">
+          <div class="publication-visual publication-visual--image">
+            <img src="https://dynamic-city.github.io/assets/images/teaser_small.webp" alt="DynamicCity project teaser" loading="lazy">
+          </div>
+          <div class="publication-details">
+            <p class="publication-venue">ICLR 2025 Spotlight</p>
+            <h3>DynamicCity: Large-Scale 4D Occupancy Generation from Dynamic Scenes</h3>
+            <p class="authors"><strong>Bian, Hengwei</strong> and Kong, Lingdong and Xie, Haozhe and Pan, Liang and Qiao, Yu and Liu, Ziwei</p>
+            <div class="publication-links">
+              <a href="https://arxiv.org/abs/2410.18084" target="_blank" rel="noreferrer">Paper ↗</a>
+              <a href="https://github.com/3DTopia/DynamicCity/" target="_blank" rel="noreferrer">Code ↗</a>
+              <a href="https://dynamic-city.github.io/" target="_blank" rel="noreferrer">Project ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication-item reveal">
+          <div class="publication-visual publication-visual--image publication-visual--paper">
+            <img src="/assets/images/publications/bot.png" alt="Batch-of-Thought reflection framework" loading="lazy">
+          </div>
+          <div class="publication-details">
+            <p class="publication-venue">EMNLP 2026</p>
+            <h3>Batch-of-Thought: Cross-Instance Learning for Enhanced LLM Reasoning</h3>
+            <p class="authors">Xuan Yang, Furong Jia, Roy Xie, Xiong Xi, <strong>Hengwei Bian</strong>, Jian Li, and Monica Agrawal</p>
+            <div class="publication-links">
+              <a href="https://arxiv.org/abs/2601.02950" target="_blank" rel="noreferrer">Paper ↗</a>
+              <a href="https://github.com/xuanyang19/BoT" target="_blank" rel="noreferrer">Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication-item reveal">
+          <div class="publication-visual publication-visual--image publication-visual--contain publication-visual--paper">
+            <img src="/assets/images/mfh.png" alt="Metric from Human project teaser" loading="lazy">
+          </div>
+          <div class="publication-details">
+            <p class="publication-venue">NeurIPS 2024</p>
+            <h3>Metric from Human: Zero-shot Monocular Metric Depth Estimation via Test-time Adaptation</h3>
+            <p class="authors">Zhao, Yizhou and <strong>Bian, Hengwei</strong> and Chen, Kaihua and Ji, Pengliang and Qu, Liao and Lin, Shao-yu and Yu, Weichen and Li, Haoran and Chen, Hao and Shen, Jun and Raj, Bhiksha and Xu, Min</p>
+            <div class="publication-links">
+              <a href="https://openreview.net/forum?id=GA8TVtxudf" target="_blank" rel="noreferrer">Paper ↗</a>
+              <a href="https://github.com/Skaldak/MfH/" target="_blank" rel="noreferrer">Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication-item reveal">
+          <div class="publication-visual publication-visual--image publication-visual--paper">
+            <img src="/assets/images/publications/syneslm.png" alt="SynesLM architecture overview" loading="lazy">
+          </div>
+          <div class="publication-details">
+            <p class="publication-venue">Interspeech 2024 · Syndata4genai Workshop</p>
+            <h3>SynesLM: A Unified Approach for Audio-visual Speech Recognition and Translation via Language Model and Synthetic Data</h3>
+            <p class="authors">Lu, Yichen and Song, Jiaqi and Chang, Xuankai and <strong>Bian, Hengwei</strong> and Maiti, Soumi and Watanabe, Shinji</p>
+            <div class="publication-links">
+              <a href="https://arxiv.org/abs/2408.00624" target="_blank" rel="noreferrer">Paper ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication-item reveal">
+          <div class="publication-visual publication-visual--image publication-visual--paper">
+            <img src="/assets/images/publications/cryosam.png" alt="CryoSAM framework overview" loading="lazy">
+          </div>
+          <div class="publication-details">
+            <p class="publication-venue">MICCAI 2024</p>
+            <h3>CryoSAM: Training-free CryoET Tomogram Segmentation with Foundation Models</h3>
+            <p class="authors">Zhao, Yizhou and <strong>Bian, Hengwei</strong> and Mu, Michael and Uddin, Mostofa R. and Li, Zhenyang and Li, Xiang and Wang, Tianyang and Xu, Min</p>
+            <div class="publication-links">
+              <a href="https://arxiv.org/abs/2407.06833" target="_blank" rel="noreferrer">Paper ↗</a>
+              <a href="https://github.com/xulabs/aitom/tree/master/aitom/segmentation/foundation_model/cryosam/" target="_blank" rel="noreferrer">Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication-item reveal">
+          <div class="publication-visual publication-visual--image publication-visual--paper">
+            <img src="/assets/images/publications/uvcom.png" alt="UVCOM overview of moment retrieval and highlight detection" loading="lazy">
+          </div>
+          <div class="publication-details">
+            <p class="publication-venue">CVPR 2024</p>
+            <h3>Bridging the Gap: A Unified Video Comprehension Framework for Moment Retrieval and Highlight Detection</h3>
+            <p class="authors">Xiao, Yicheng and Luo, Zhuoyan and Liu, Yong and Ma, Yue and <strong>Bian, Hengwei</strong> and Ji, Yatai and Yang, Yujiu and Li, Xiu</p>
+            <div class="publication-links">
+              <a href="https://arxiv.org/abs/2311.16464" target="_blank" rel="noreferrer">Paper ↗</a>
+              <a href="https://github.com/EasonXiao-888/UVCOM/" target="_blank" rel="noreferrer">Code ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact page-shell" id="contact" data-section aria-labelledby="contact-title">
+      <header class="section-heading reveal">
+        <p>03</p>
+        <h2 id="contact-title">Contact</h2>
+      </header>
+      <div class="contact-line reveal">
+        <p>Email</p>
+        <a href="mailto:hb.acad@outlook.com">hb.acad@outlook.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer page-shell">
+    <p>© 2026 Hengwei Bian</p>
+    <p>Built with AI.</p>
+  </footer>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
